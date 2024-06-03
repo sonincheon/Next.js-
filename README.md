@@ -5,6 +5,10 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 First, run the development server:
 
 ```bash
+npx json-server --port 9999 --watch db.json
+
+&
+
 npm run dev
 # or
 yarn dev
